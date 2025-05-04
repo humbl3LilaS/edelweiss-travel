@@ -1,4 +1,5 @@
 import clsx, { type ClassValue } from "clsx";
+import { format } from "date-fns";
 import { twMerge } from "tailwind-merge";
 
 export function cn(...classNames: ClassValue[]) {
@@ -28,3 +29,7 @@ export const calculateTrendPercentage = (
 
 	return { trend: "no change", percentage: 0 };
 };
+
+export function formatDate(dateString: string) {
+	return format(dateString, "MMMM dd, yyyy");
+}

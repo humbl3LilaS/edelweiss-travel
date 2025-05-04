@@ -259,13 +259,13 @@
 		img {
 			@apply w-full h-[160px] rounded-t-xl object-cover aspect-video;
 		}
-		article {
+		.trip-card__content {
 			@apply flex flex-col gap-3 mt-4 pl-[18px] pr-3.5;
 			h2 {
 				@apply text-sm md:text-lg font-semibold text-dark-100 line-clamp-2;
 			}
 			figure {
-				@apply flex items-center gap-2;
+				@apply mt-2 flex items-center gap-2;
 				figCaption {
 					@apply text-xs md:text-sm font-normal text-gray-100;
 				}
