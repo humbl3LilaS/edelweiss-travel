@@ -146,3 +146,11 @@ export const USER_PLACEHOLDER = {
 	email: "sabishinekobebe@gmail.com",
 	imageUrl: "/assets/images/david.webp",
 };
+
+export const Dashboard_STATS_PLACEHOLDER = {
+	totalUsers: 12450,
+	userJoined: { currentMonth: 218, lastMonth: 176 },
+	totalTrips: 3210,
+	tripsCreated: { currentMonth: 150, lastMonth: 250 },
+	userRole: { total: 62, currentMonth: 25, lastMonth: 15 },
+};
