@@ -346,7 +346,7 @@
 		.container {
 			@apply flex flex-col justify-between h-full;
 			nav {
-				@apply flex flex-col  pt-4  md:pt-6 lg:pt-9;
+				@apply flex flex-col  pt-4 lg:gap-6 md:pt-6 lg:pt-9;
 			}
 		}
 	}

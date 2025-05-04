@@ -1,7 +1,7 @@
 import { Outlet } from "react-router";
 import { MobileSideBar, SideBar } from "../../components";
 
-const AdminLayout = () => {
+const Layout = () => {
 	return (
 		<div className={"admin-layout"}>
 			<MobileSideBar />
@@ -13,4 +13,4 @@ const AdminLayout = () => {
 	);
 };
 
-export default AdminLayout;
+export default Layout;
