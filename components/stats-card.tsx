@@ -1,4 +1,4 @@
-import { calculateTrendPercentage, cn } from "../lib/util";
+import { calculateTrendPercentage, cn } from "~/lib/util";
 
 type StatsCardProps = {
 	header: string;

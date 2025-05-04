@@ -1,5 +1,5 @@
 import type { AxisModel } from "@syncfusion/ej2-react-charts";
-import { formatDate } from "../../lib/util";
+import { formatDate } from "~/lib/util";
 
 export const sidebarItems = [
 	{

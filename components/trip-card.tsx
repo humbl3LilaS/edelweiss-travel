@@ -1,6 +1,6 @@
 import { ChipDirective, ChipListComponent, ChipsDirective } from "@syncfusion/ej2-react-buttons";
 import { Link } from "react-router";
-import { cn } from "../lib/util";
+import { cn } from "~/lib/util";
 
 type TripData = {
 	id: number;

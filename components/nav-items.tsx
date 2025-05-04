@@ -1,6 +1,6 @@
 import { NavLink } from "react-router";
 import { sidebarItems } from "~/constants";
-import { cn } from "../lib/util";
+import { cn } from "~/lib/util";
 
 type NavItemsProps = {
 	handleClick?: () => void;

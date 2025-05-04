@@ -1,5 +1,5 @@
 import { useLocation } from "react-router";
-import { cn } from "../lib/util";
+import { cn } from "~/lib/util";
 
 type HeaderProps = {
 	title: string;
