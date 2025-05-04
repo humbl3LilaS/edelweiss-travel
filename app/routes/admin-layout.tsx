@@ -1,10 +1,10 @@
 import { Outlet } from "react-router";
-import SideBar from "../../components/side-bar";
+import { MobileSideBar, SideBar } from "../../components";
 
 const AdminLayout = () => {
 	return (
 		<div className={"admin-layout"}>
-			<div>Mobile nav</div>
+			<MobileSideBar />
 			<SideBar />
 			<div className={"children"}>
 				<Outlet />

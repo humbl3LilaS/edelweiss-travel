@@ -301,7 +301,7 @@
 				@apply text-base md:text-2xl font-bold text-dark-100;
 			}
 			a {
-				@apply flex items-center gap-1.5 py-10;
+				@apply flex items-center gap-1.5 py-4 md:py-6 lg:py-10;
 			}
 		}
 	}
@@ -346,7 +346,7 @@
 		.container {
 			@apply flex flex-col justify-between h-full;
 			nav {
-				@apply flex flex-col gap-3.5 pt-9;
+				@apply flex flex-col  pt-4  md:pt-6 lg:pt-9;
 			}
 		}
 	}
